@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "backgroud-remover-flask-app"
+version = "0.1.0"
+description = ""
+authors = ["LucasPires50 <luc_50@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.3"
+rembg = "2.0.50"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
